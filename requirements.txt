@@ -76,7 +76,7 @@ matplotlib==3.1.0
 mccabe==0.6.1
 mistune==0.8.4
 mkl-fft
-mkl-random==1.0.2
+mkl-random
 multidict==4.5.2
 munch==2.3.2
 nbconvert==5.5.0
