@@ -75,7 +75,7 @@ MarkupSafe==1.1.1
 matplotlib==3.1.0
 mccabe==0.6.1
 mistune==0.8.4
-mkl-fft==1.0.12
+mkl-fft
 mkl-random==1.0.2
 multidict==4.5.2
 munch==2.3.2
