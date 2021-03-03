@@ -20,7 +20,7 @@ model.fit(X_train, Y_train)
 df=pd.read_csv('compare.csv')
 dx=df.iloc[:,1:]
 #--------------------------------Correlation-bar-graph-data--------------------------------------------------------------
-dc = pd.read_csv('Features_corr.csv')
+# dc = pd.read_csv('Features_corr.csv')
 #--------------------------------disturbution-graph------------------------------------------------------------------------
 kc = pd.read_csv(file)
 features = ['bedrooms','bathrooms','floors','view','condition','grade'] # option for Distrubution graph
@@ -86,7 +86,7 @@ layout_page_1 = html.Div([
         {"name": i, "id": i} for i in sorted(kc.columns)
          ],
     # filtering='be', # for filtering
-    filter=''
+    # filter=''
     )])
 
     # html.H2('Page 1'),
